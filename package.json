@@ -1,0 +1,24 @@
+{
+  "name": "tdd-workshop",
+  "version": "1.0.0",
+  "description": "A simple TDD practice example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camiloacortes/kata-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camiloacortes/kata-calculator/issues"
+  },
+  "homepage": "https://github.com/camiloacortes/kata-calculator#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1"
+  }
+}
