@@ -9,8 +9,14 @@
   exports.KataCalculator = KataCalculator;
 
   KataCalculator.prototype = {
-    add: function(number) {
-        return 0;
+    add: function() {
+      var addition = 0, args = arguments;
+
+      for(var i = 0; i < args.length; i++)  {
+        console.log("Adding " + args[i] + "\n");
+        addition += args[i];
+      }
+      return addition;
     }
   };
 })(this);
